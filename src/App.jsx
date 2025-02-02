@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/migrant">
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/category" element={<Category />}></Route>
